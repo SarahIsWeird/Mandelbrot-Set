@@ -1,0 +1,16 @@
+{
+	// See https://go.microsoft.com/fwlink/?LinkId=733558
+	// for the documentation about the tasks.json format
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "default",
+			"type": "shell",
+			"command": "g++ -o mandelbrot.exe mandelbrot.cpp -I\"F:\\Programming\\SFML-2.5.1\\include\" -L\"F:\\Programming\\SFML-2.5.1\\lib\" -lsfml-system -lsfml-window -lsfml-graphics",
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		}
+	]
+}
